@@ -1,5 +1,4 @@
 import 'dart:io';
-
 import 'package:flutter/material.dart';
 
 const s = 0.2;
@@ -34,7 +33,7 @@ class NavCustomPainter extends CustomPainter {
 
     final path = Path()
       ..moveTo(0, 0)
-      ..lineTo(size.width * (loc - 0.05), 0)
+      ..lineTo(size.width * (loc - 0.05) + 8, 0)
       ..cubicTo(
         size.width * (loc + s * 0.2), // topX
         size.height * 0.05, // topY

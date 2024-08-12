@@ -170,10 +170,7 @@ class CurvedNavigationBarState extends State<CurvedNavigationBar>
                 textDirection: Directionality.of(context),
                 hasLabel: widget.hasLabel,
               ),
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Container(height: widget.height),
-              ),
+              child: Container(height: widget.height),
             ),
           ),
           // Unselected buttons
